@@ -20,7 +20,7 @@
  # SPDX-License-Identifier: EPL-2.0 OR Apache-2.0 OR GPL-2.0 WITH Classpath-exception-2.0 OR LicenseRef-GPL-2.0 WITH Assembly-exception
  ###############################################################################
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 RUN apt-get update && apt-get install -y curl npm git
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
